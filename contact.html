@@ -1,0 +1,112 @@
+{{#> layout title="Contact" activePage="contact" }}
+  <div class="container py-5 my-5">
+    <div class="row g-5">
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="mb-5">
+          <span class="badge bg-primary bg-opacity-10 text-primary mb-2 px-3 py-2 rounded-pill fw-bold">Get in Touch</span>
+          <h1 class="display-5 fw-bold mb-4">Let's talk about your project</h1>
+          <p class="lead text-muted">We help companies and individuals build out their brand guidelines.</p>
+        </div>
+        
+        <div class="d-flex flex-column gap-4">
+          <div class="d-flex align-items-start">
+            <div class="bg-primary bg-opacity-10 p-3 rounded-circle text-primary me-3">
+              <i class="bi bi-envelope fs-4"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold mb-1">Email</h5>
+              <p class="text-muted mb-0">Our friendly team is here to help.</p>
+              <a href="mailto:hello@example.com" class="text-decoration-none fw-bold">hello@example.com</a>
+            </div>
+          </div>
+          
+          <div class="d-flex align-items-start">
+            <div class="bg-primary bg-opacity-10 p-3 rounded-circle text-primary me-3">
+              <i class="bi bi-geo-alt fs-4"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold mb-1">Office</h5>
+              <p class="text-muted mb-0">Come say hello at our office HQ.</p>
+              <p class="fw-bold mb-0">100 Smith Street<br>Collingwood VIC 3066 AU</p>
+            </div>
+          </div>
+          
+          <div class="d-flex align-items-start">
+            <div class="bg-primary bg-opacity-10 p-3 rounded-circle text-primary me-3">
+              <i class="bi bi-telephone fs-4"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold mb-1">Phone</h5>
+              <p class="text-muted mb-0">Mon-Fri from 8am to 5pm.</p>
+              <a href="tel:+1234567890" class="text-decoration-none fw-bold">+1 (555) 000-0000</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <h6 class="fw-bold mb-3">Follow us</h6>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-outline-dark rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="btn btn-outline-dark rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="btn btn-outline-dark rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="btn btn-outline-dark rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+          <div class="card-body p-5">
+            <h3 class="fw-bold mb-4">Send us a message</h3>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-light border-0" id="firstName" placeholder="First Name" required>
+                    <label for="firstName">First Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-light border-0" id="lastName" placeholder="Last Name" required>
+                    <label for="lastName">Last Name</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="email" class="form-control bg-light border-0" id="email" placeholder="name@example.com" required>
+                    <label for="email">Email address</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <select class="form-select bg-light border-0" id="subject" aria-label="Subject">
+                      <option selected>General Inquiry</option>
+                      <option value="1">Support</option>
+                      <option value="2">Sales</option>
+                      <option value="3">Feedback</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control bg-light border-0" placeholder="Leave a comment here" id="message" style="height: 150px" required></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12 mt-4">
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg py-3 fw-bold" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/layout}}
