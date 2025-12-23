@@ -3,7 +3,7 @@ import handlebars from 'vite-plugin-handlebars';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/Internship-21/',
+  base: '/Internship-2/',
   plugins: [
     handlebars({
       partialDirectory: resolve(__dirname, 'src/templates/partials'),
